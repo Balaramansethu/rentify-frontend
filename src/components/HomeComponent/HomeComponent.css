@@ -1,0 +1,58 @@
+.Card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.Card-items{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+   
+}
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination p {
+    margin: 0 5px;
+}
+
+.pagination button {
+    background-color: #b3e5fc; 
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #b3e5fc; 
+}
+
+.pagination .active button {
+    background-color: #b3e5fc;
+    font-weight: bold;
+}
+
+.pagination button[disabled] {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+}
+
+.delete-btn {
+    border-radius: 10px;
+    padding: 7px;
+}

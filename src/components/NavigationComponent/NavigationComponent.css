@@ -1,0 +1,20 @@
+.navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-bar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
